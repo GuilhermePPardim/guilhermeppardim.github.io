@@ -29,7 +29,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 h1, h2 {
   font-family: 'Playfair Display';
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 body {
   margin: 0;
@@ -42,7 +42,7 @@ body {
 header {
   background-color: var(--cor-primaria);
   color: white;
-  padding: 2rem 1rem;
+  padding: 3rem 2rem;
   text-align: center;
   
 }
@@ -120,16 +120,15 @@ aside {
 }
 
 aside img {
-    width: 40px;
+  width: 40px;
   height: 40px;
   border-radius: 50%;
   margin-top: 1rem;
   margin-right: 20px;
 }
 article img {
-    width: 50px;
+  width: 50px;
   height: 50px;
-  border-radius: 50%;
   margin-top: 1rem;
   margin-right: 20px;
 }
