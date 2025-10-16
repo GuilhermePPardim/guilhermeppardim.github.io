@@ -15,7 +15,7 @@ const sr = ScrollReveal({
     reset: false
 });
 
-sr.reveal('.profile-picture, #sobre article, #habilidades ul', { origin: 'top' });
+sr.reveal('.profile-picture, #sobre article, #habilidades ul, #projetos, #extras', { origin: 'top' });
 sr.reveal('.project-card', { origin: 'bottom', interval: 200 });
 });
 
