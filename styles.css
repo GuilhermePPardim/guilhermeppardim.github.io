@@ -156,3 +156,34 @@ footer {
   }
 }
 
+#backToTopBtn {
+    position: fixed;
+    bottom: 20px; 
+    right: 30px;
+    z-index: 1000; 
+    width: 45px; 
+    height: 45px; 
+    border-radius: 50%; 
+    background-color: #ffffff41; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4); 
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+    visibility: hidden;
+}
+
+#backToTopBtn:hover { transform: scale(1.1);
+}
+
+#backToTopBtn.show {
+opacity: 1; 
+visibility: visible;
+}

@@ -18,4 +18,21 @@ const sr = ScrollReveal({
 sr.reveal('.profile-picture, #sobre article, #habilidades ul, #projetos, #extras', { origin: 'top' });
 sr.reveal('.project-card', { origin: 'bottom', interval: 200 });
 });
+    
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) { 
+            backToTopBtn.classList.add('show');
+        } else {
+            backToTopBtn.classList.remove('show');
+        }
+    });
 
+    backToTopBtn.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0, 
+            behavior: 'smooth' 
+        });
+    });
+// ...
