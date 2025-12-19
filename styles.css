@@ -24,8 +24,6 @@ body {
     color: var(--text-color);
 }
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 h1, h2 {
   font-family: 'Playfair Display';
@@ -38,13 +36,11 @@ body {
   color: var(--cor-texto);
 }
 
-
 header {
   background-color: var(--cor-primaria);
   color: white;
   padding: 3rem 2rem;
   text-align: center;
-  
 }
 
 header img {
@@ -58,6 +54,7 @@ nav {
   background-color: var(--cor-secundaria);
   padding: 0.8rem;
   text-align: center;
+  border: red;
 }
 
 nav a {
@@ -65,13 +62,11 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
-  border: #ffffff;
-  
+  border: white;
 }
 
 nav a:hover {
   text-decoration: underline;
-  
 }
 
 main {
@@ -92,7 +87,7 @@ section h2 {
   padding-bottom:30px;
   margin-bottom: 20px;
   text-align: center;
-  border: #ffffff;
+  border: #b12a2a;
   border-radius: 10px;
 }
 
@@ -116,7 +111,6 @@ aside {
   padding: 1rem;
   margin: 2rem;
   border-radius: 10px;
-  
 }
 
 aside img {
@@ -146,11 +140,9 @@ footer {
     display: block;
     margin: 0.5rem 0;
   }
-
   main {
     padding: 1rem;
   }
-
   aside {
     margin: 1rem;
   }
@@ -186,4 +178,18 @@ footer {
 #backToTopBtn.show {
 opacity: 1; 
 visibility: visible;
+}
+
+figure {
+  margin: 0 1rem;
+  margin-right: 25%;
+  margin-left: 25%;
+  
+}
+#navegador {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border: 10px white;
 }
