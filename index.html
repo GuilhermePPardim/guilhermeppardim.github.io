@@ -3,114 +3,178 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Guilherme Pereira Pardim - Desenvolvedor de Software</title>
+  <meta name="description" content="Portfólio de Guilherme Pereira Pardim, Desenvolvedor Full Stack. Especialista em Front-end e Back-end. Conheça meus projetos e habilidades." />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Guilherme Pereira Pardim | Desenvolvedor Full Stack</title>
+  
+  <!-- Fontes Modermas do Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="styles.css" />
   <link rel="shortcut icon" href="imagem/portfolio-profissional.png" type="image/x-icon">
-
 </head>
 <body>
 
- <header class="hero">
-    <img src="imagem_perfil.jpg" alt="Foto de perfil de Guilherme Pereira Pardim" class="profile-picture"/>
-    <h1>GUILHERME PEREIRA PARDIM</h1>
-    <h2><span id="typed-text"></span></h2>
-    
-  </header>
-  <section id="navegador">
-  <nav>
-    <a href="#sobre">Sobre mim</a>
-    <a href="#habilidades">Habilidades</a>
-    <a href="#projetos">Projetos</a>
-    <a href="#extras">Extras</a>
+  <!-- Navegação Fixa (Glassmorphism) -->
+  <nav id="navegador" class="navbar">
+    <div class="nav-content">
+      <a href="#inicio" class="nav-brand">Guilherme / Desenvolvedor</a>
+      <div class="nav-links">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#extras">Contato</a>
+      </div>
+    </div>
   </nav>
-  </section>
+
+  <!-- Seção Hero Principal -->
+  <header id="inicio" class="hero section">
+    <div class="hero-content container">
+      <div class="hero-image-container reveal-top">
+        <img src="imagem_perfil.jpg" alt="Foto de perfil de Guilherme Pereira Pardim" class="profile-picture"/>
+        <div class="glow"></div>
+      </div>
+      <div class="hero-text reveal-bottom">
+        <h1>GUILHERME PEREIRA PARDIM</h1>
+        <h2><span id="typed-text" class="gradient-text"></span></h2>
+        <p class="subtitle">Criando soluções inovadoras através da tecnologia.</p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+          <a href="CV.GuilhermePPArdim.pdf" download class="btn btn-secondary">
+            Baixar CV <img src="imagem/codigo.png" alt="Download" class="icon-small">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <main>
-    <section id="sobre">
-      <h2>Sobre mim</h2>
-      <article>
-      <p> <br> Sou Desenvolvedor de Software Full Stack, com experiência em desenvolvimento front-end e back-end, especializado em React, Node.js, SQL e APIs REST. Estudante de Análise e Desenvolvimento de Sistemas na UniCesumar, com previsão de conclusão em 2026, possuo paixão por tecnologia, sistemas, jogos e tudo que envolve programação e inovação. <br>
-       <br>Atualmente atuo como Técnico de Suporte em TI na Polis Gestão, sendo o primeiro ponto de contato para resolução de problemas e responsável pelo diagnóstico de incidentes, suporte remoto e presencial, gestão de acessos e documentação técnica. Essa experiência me proporcionou uma visão aprofundada das necessidades do usuário final, habilidade essencial para criar soluções de software intuitivas e eficazes. <br>
-       <br>Tenho experiência prática em desenvolvimento web, integração de sistemas e otimização de processos, além de inglês avançado para leitura e escrita técnica. Sou movido por desafios que permitam aplicar meus conhecimentos em projetos reais, entregar valor à equipe e à empresa e crescer como profissional de tecnologia. <br></p>
-<div class="cta-container">
-            <a href="CV.GuilhermePPArdim.pdf" download class="cta-button"><img src="imagem/codigo.png"alt="BAIXAR"></a>
-        </div>
-      </article>
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section-title reveal-left">Sobre mim</h2>
+        <article class="glass-card reveal-up">
+          <p>Sou <strong>Desenvolvedor de Software Full Stack</strong> com experiência em Front-end e Back-end. Possuo paixão por tecnologia, programação, arquitetura de software e experiência do usuário. Atualmente cursando Análise e Desenvolvimento de Sistemas na UniCesumar, venho consolidando sólidos conhecimentos em desenvolvimento Web para projetar e entregar soluções completas e de alta performance.</p>
+          <p>No atual momento atuo como Técnico de Suporte em TI na Polis Gestão, sendo o responsável pelo diagnóstico de incidentes, resolução técnica de demandas (T1/T2) e documentações. Essa vivência resolvendo diretamente os problemas reais do usuário final afiou a minha visão analítica, além de moldar a forma como construo soluções focadas e práticas. Costumo focar na usabilidade no ciclo de vida inteiro de uma aplicação e me guio por código limpo e escalável para prevenir falhas.</p>
+          <p>Com inglês técnico avançado e constante iniciativa para resolver desafios do mundo real de forma ágil, busco ativamente construir arquiteturas do design do banco de dados ao front-end de forma inteligente e responsiva. Meu objetivo principal é aprender técnicas modernas e ser parte estratégica de equipes dinâmicas de tecnologia.</p>
+        </article>
+      </div>
     </section>
 
-    <section id="habilidades">
-      <h2>Habilidades</h2>
-      <article>
-      <ul>
-        <figure>
-        <img src="imagem/javascript.png" alt="JavaScript">
-        <img src="imagem/acss.png" alt="CSS">
-        <img src="imagem/arquivo-html.png" alt="html">
-        <img src="imagem/c-.png" alt="C++">
-        <img src="imagem/letra-c.png" alt="C">
-        <img src="imagem/java.png" alt="java">
-        <img src="imagem/python.png" alt="python">  
-        <img src="imagem/sql.png" alt="sql">
-        </figure>
-        
-
-      </ul>
-      </article>
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="section">
+      <div class="container">
+        <h2 class="section-title reveal-right">Habilidades Técnicas</h2>
+        <article class="glass-card reveal-up">
+          <div class="skills-grid">
+            <div class="skill-item"><img src="imagem/javascript.png" alt="JavaScript"><span>JavaScript</span></div>
+            <div class="skill-item"><img src="imagem/acss.png" alt="CSS"><span>CSS3</span></div>
+            <div class="skill-item"><img src="imagem/arquivo-html.png" alt="HTML"><span>HTML5</span></div>
+            <div class="skill-item"><img src="imagem/c-.png" alt="C++"><span>C++</span></div>
+            <div class="skill-item"><img src="imagem/letra-c.png" alt="C"><span>C</span></div>
+            <div class="skill-item"><img src="imagem/java.png" alt="Java"><span>Java</span></div>
+            <div class="skill-item"><img src="imagem/python.png" alt="Python"><span>Python</span></div>
+            <div class="skill-item"><img src="imagem/sql.png" alt="SQL"><span>SQL</span></div>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section id="projetos" class="projetos">
-      <h2>Projetos</h2>
-      <article>
-        <h3>Portfólio Web Responsivo</h3>
-        <p> <br> Desenvolvido para centralizar meus projetos e trajetória profissional, utilizando tecnologias modernas de front-end para garantir uma experiência de usuário fluida em qualquer dispositivo. <br></p>
-        <div class="project-links">
-            <a href="https://github.com/GuilhermePPardim/fist/tree/GuilhermePPardim.github.io" target="_blank" class="project-link"><img src="imagem/portfolio-profissional.png" alt="portfolio-profissional"></a>
+    <!-- Seção Projetos -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2 class="section-title reveal-left">Meus Projetos</h2>
+        <div class="projects-grid">
+          
+          <!-- Projeto 1 -->
+          <article class="project-card reveal-up project-1">
+            <div class="project-content">
+              <h3>Portfólio Web Responsivo</h3>
+              <p>Desenvolvido para centralizar meus projetos e trajetória profissional, utilizando tecnologias modernas de front-end para garantir uma experiência de usuário fluida em qualquer dispositivo.</p>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/GuilhermePPardim/fist/tree/GuilhermePPardim.github.io" target="_blank" class="project-link" aria-label="Ver projeto no GitHub">
+                <img src="imagem/portfolio-profissional.png" alt="Portfolio Icon">
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="project-card reveal-up project-2" style="transition-delay: 100ms;">
+            <div class="project-content">
+              <h3>Lista de Tarefas</h3>
+              <p>Aplicação de gerenciamento de produtividade que permite criar, editar e organizar tarefas diárias, focada na otimização de fluxo de trabalho.</p>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/GuilhermePPardim/To-Do_List_com_Login" target="_blank" class="project-link" aria-label="Ver projeto no GitHub">
+                <img src="imagem/lista.png" alt="Lista Icon">
+              </a>
+            </div>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="project-card reveal-up project-3" style="transition-delay: 200ms;">
+            <div class="project-content">
+              <h3>EduConnect (Java POO)</h3>
+              <p>Plataforma de gestão educacional desenvolvida em Java, aplicando rigorosamente os pilares da POO (Herança, Polimorfismo, Encapsulamento e Abstração) para resolver problemas complexos.</p>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/GuilhermePPardim/ed-connect-sistema-academico" target="_blank" class="project-link" aria-label="Ver projeto no GitHub">
+                <img src="imagem/edu.png" alt="EduConnect Icon">
+              </a>
+            </div>
+          </article>
+
         </div>
-      </article>
-      <article>
-        <h3>Lista de Tarefas</h3>
-        <p><br>Aplicação de gerenciamento de produtividade que permite criar, editar e organizar tarefas diárias, focada na otimização de fluxo de trabalho. <br></p>
-            <a href="https://github.com/GuilhermePPardim/To-Do_List_com_Login" target="_blank" class="project-link"><img src="imagem/lista.png" alt="listadetarefas"></a>
-        </div>
-      </article>
-      <article>
-        <h3>EduConnect-JAVA(POO)</h3>
-        <p> <br>Plataforma de gestão educacional desenvolvida em Java, aplicando rigorosamente os pilares da POO (Herança, Polimorfismo, Encapsulamento e Abstração) para resolver problemas complexos de software. <br></p>
-        <a href="https://github.com/GuilhermePPardim/ed-connect-sistema-academico" target="_blank" class="EduConnect-JAVA"><img src="imagem/edu.png" alt="imagemdelivros"></a>
-      </article>
+      </div>
     </section>
   </main>
 
-  <aside id="extras">
-    <h2>Redes Socias</h2>
-    
-      <a href="https://www.facebook.com/TocedordoGalo/" target="_blank"> 
-  <img src="imagem/facebook.png" alt="facebook">
-
-      <a href="https://www.instagram.com/0lmp3rl0/" target="_blank"> 
-  <img src="imagem/instagram.png" alt="instagram">
-</a>
-<a href="https://www.linkedin.com/in/guilherme-pereira-pardim-aa8433348/" target="_blank"> 
-  <img src="imagem/linkedin.png" alt="linkedin">
-</a>
-<a href="https://github.com/GuilhermePPardim" target="_blank"> 
-  <img src="imagem/github.png" alt="github">
-</a>
-    
+  <!-- Seção Extras/Redes Sociais -->
+  <aside id="extras" class="section">
+    <div class="container">
+      <article class="glass-card text-center reveal-up">
+        <h2>Conecte-se comigo</h2>
+        <div class="social-cards">
+          <a href="https://www.linkedin.com/in/guilherme-pereira-pardim-aa8433348/" target="_blank" class="social-card reveal-up">
+            <img src="imagem/linkedin.png" alt="LinkedIn">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/GuilhermePPardim" target="_blank" class="social-card reveal-up" style="transition-delay: 100ms;">
+            <img src="imagem/github.png" alt="GitHub">
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.instagram.com/0lmp3rl0/" target="_blank" class="social-card reveal-up" style="transition-delay: 200ms;">
+            <img src="imagem/instagram.png" alt="Instagram">
+            <span>Instagram</span>
+          </a>
+        </div>
+      </article>
+    </div>
   </aside>
 
-  <footer>
-    <button id="backToTopBtn" aria-label="Voltar ao topo da página">
-      <span>&#x25B2;</span>
-</button>
-    <address>
-     <p>E-mail para contato: <a href="mailto:guilherme.p.pardim@gmail.com">guilherme.p.pardim@gmail.com</a></p>
-    <p>© 2025 Guilherme Pereira Pardim</p>
-    </address>
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <address>
+          <p>E-mail: <a href="mailto:guilherme.p.pardim@gmail.com" class="gradient-text">guilherme.p.pardim@gmail.com</a></p>
+        </address>
+        <p class="copyright">© 2026 Guilherme Pereira Pardim. Desenvolvido com dedicação.</p>
+      </div>
+    </div>
   </footer>
-<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<script src="script.js"></script> 
-<script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Botão Voltar ao Topo -->
+  <button id="backToTopBtn" aria-label="Voltar ao topo da página">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script> 
 </body>
 </html>
-
