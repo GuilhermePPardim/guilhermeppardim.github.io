@@ -4,8 +4,8 @@ Este é o repositório do meu portfólio pessoal, uma landing page desenvolvida 
 
 O projeto está hospedado gratuitamente utilizando o GitHub Pages.
 
-➡️ Acesso ao Site: https://guilhermeppardim.github.io/
-✨ Funcionalidades e Seções
+➡Acesso ao Site: https://guilhermeppardim.github.io/
+ Funcionalidades e Seções
 O site é uma página única (one-page) para facilitar a navegação e apresentar as informações de forma direta, contendo as seguintes seções:
 
 Header (Apresentação): Uma introdução com meu nome, título profissional e foto.
@@ -58,7 +58,7 @@ Abra o arquivo principal:
 
 Abra o arquivo index.html diretamente no seu navegador de preferência (Chrome, Firefox, etc.).
 
-📂 Estrutura do Projeto
+Estrutura do Projeto
 /GuilhermePPardim.github.io
 |
 |-- index.html                  # Arquivo principal da estrutura do site
@@ -74,7 +74,7 @@ Abra o arquivo index.html diretamente no seu navegador de preferência (Chrome, 
 |   |-- portfolio-profissional.png (favicon)
 |
 `-- README.md                   # Este arquivo de documentação
-📬 Contato
+Contato
 LinkedIn: Guilherme Pereira Pardim
 
 GitHub: @GuilhermePPardim
